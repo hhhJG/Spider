@@ -1,7 +1,6 @@
 package utils;
 
 public class NumberUtils {
-	public final static double FAIL = -444444444;
 	
 	/**
 	 * 字符串message转化为double类型数字
@@ -14,9 +13,9 @@ public class NumberUtils {
 			}
 			catch(Exception e){
 				System.out.println(e);
-				return NumberUtils.FAIL;
+				return NumberConst.CONVERTINTFAIL;
 			}
 		}
-		return NumberUtils.FAIL;
+		return NumberConst.CONVERTINTFAIL;
 	}
 }
