@@ -4,12 +4,12 @@ public class QueryElementSingleGet implements QueryElementGetBase {
 	/**
 	 * 页签属性对应的值
 	 * */
-	private String attributeVaule;
-	public String getAttributeVaule() {
-		return attributeVaule;
+	private String attributeName;
+	public String getAttributeName() {
+		return attributeName;
 	}
-	public void setAttributeVaule(String attributeVaule) {
-		this.attributeVaule = attributeVaule;
+	public void setAttributeName(String attributeName) {
+		this.attributeName = attributeName;
 	}
 	
 	@Override

@@ -1,6 +1,15 @@
 package query.result;
 
 public class ElementSingleResultVO implements ElementBaseResultVO {
+	
+	public ElementSingleResultVO() {
+		
+	}
+	
+	public ElementSingleResultVO(String name, String value) {
+		this.name = name;
+		this.value = value;
+	}
 
 	public Object value;
 	public Object getValue() {
